@@ -31,7 +31,7 @@ public class AlipayController {
 	 * @date 2016年3月25日 下午10:36:49
 	 */
 	@RequestMapping(value = "/products")
-	public String products(Model model) throws Exception {
+	public String products() throws Exception {
 		
 		return "products";
 	}
