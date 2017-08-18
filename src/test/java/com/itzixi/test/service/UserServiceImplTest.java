@@ -43,7 +43,7 @@ public class UserServiceImplTest {
 	@Test
 	public void testGetUserById() throws Exception {
 		UserService userService = (UserService) applicationContext.getBean("userService");
-
+  
 		User user = userService.getUserById("1001");
 		System.out.println(user.toString());
 	}
