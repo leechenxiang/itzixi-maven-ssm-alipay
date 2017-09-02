@@ -12,7 +12,7 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
 		
 	<!-- 扫描包加载Service实现类 -->
-	<context:component-scan base-package="com.itzixi.service"></context:component-scan>
+	<context:component-scan base-package="com.itzixi.service,com.itzixi.wx.service"></context:component-scan>
 	
 	<bean id="sid" class="org.n3r.idworker.Sid"></bean>
 	
